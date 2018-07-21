@@ -1,0 +1,218 @@
+/*Main Elements*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Amatic SC", cursive;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    min-width: 350px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: url(https://pixel.nymag.com/imgs/daily/intelligencer/2015/03/19/magazine/19-tall-buildings.nocrop.w536.h2147483647.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 5%;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid #5ca4da ;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+main {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 3% 0;
+    justify-content: center; 
+}
+
+iframe {
+        width: 100%;
+        height: auto;
+        opacity: 0.9;
+        z-index: 0;
+        border: 0px;
+    }
+
+/*Class Elements*/
+.article {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 5%;
+    }
+
+.logo {
+    height: 100%;
+    padding-left: 2%; 
+}
+
+.half-article-background {
+        background-color: white;
+        opacity: 0.8;   
+    }
+
+ .paragraph-style {
+        font-size: 22px;
+        text-align: center;
+        color: black;
+        padding: 15% 0;
+    }
+
+ .header-style {
+        color: #5ca4da;
+        padding-left: 1%;
+        vertical-align: top;
+        width: 90%;
+        
+}
+
+.footer-size {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-styles {
+    height: 100%; 
+}
+
+@media screen and (min-width: 0px) and (max-width: 368px) {
+    /* Class Elements */
+.header-style {
+        font-size: 22px;
+    }
+    
+.paragraph-style {
+        font-size: 14px;
+    }
+    
+.half {
+    width: 100%;
+    height: auto;
+    }
+    
+.half-article {
+    width: 100%;
+     margin-top: 5%;
+    }
+}
+
+@media screen and (min-width: 368px) and (max-width: 640px) {
+  /* Class Elements */
+.header-style {
+        font-size: 25px;
+    }
+    
+.paragraph-style {
+        font-size: 24px;
+    }
+    
+.half {
+    width: 100%;
+    height: auto;
+    }   
+    
+.half-article {
+    width: 100%;
+     margin-top: 5%;
+    }
+    
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+/* Main Elements */
+body {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/b/b1/Ringrose.jpg);        
+    }
+    
+iframe {
+        width: 100%;
+        height: 300px;
+        opacity: 0.9;
+        z-index: 0;
+    }
+    
+/* Class Elements */    
+.header-style {
+        font-size: 30px;
+    }
+    
+.half-article {
+    width: 50%;
+    }
+    
+.half {
+    width: 100%;
+    height: auto;
+    }
+    
+.paragraph-style {
+        font-size: 28px;        
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+/* Main Elements */
+body {
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b1/Ringrose.jpg);        
+    }
+    
+iframe {
+        width: 100%;
+        height: 600px;
+        opacity: 0.9;
+        z-index: 0;
+    }
+    
+article {
+        margin: 0 5%;
+    }
+    
+/*Class Elements*/
+.header-style {
+        font-size: 31px;        
+    }
+    
+.paragraph-style {
+        font-size: 30px;        
+    }
+    
+ .half-article {
+    width: 50%;
+    }
+    
+.half-article-background {
+        background-color: white;
+        opacity: 0.8;
+    }
+    
+.half {
+    width: 100%;
+    height: auto;
+    }
+
+}
+
